@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameSettings>
+
+  <UniverseSize>1200</UniverseSize>
+
+  <MSPerFrame>17</MSPerFrame>
+
+  <FramesPerShot>80</FramesPerShot>
+
+  <RespawnRate>300</RespawnRate>
+
+  <TankHitPoints>3</TankHitPoints>
+
+  <ProjectileSpeed>25</ProjectileSpeed>
+
+  <EngineStrength>3</EngineStrength>
+
+  <TankSize>60</TankSize>
+
+  <WallSize>50</WallSize>
+
+  <MaxNumPowerup>2</MaxNumPowerup>
+
+  <MaxPowerupDelay>1650</MaxPowerupDelay>
+
+  <!-- top border -->
+
+
+
+  <Wall>
+
+
+    <p1x>-575</p1x>
+    <p1y>-575</p1y>
+
+    <p2x>575</p2x>
+    <p2y>-575</p2y>
+
+
+  </Wall>
+
+  <!-- left border -->
+
+
+
+  <Wall>
+
+
+    <p1x>-575</p1x>
+    <p1y>-575</p1y>
+
+    <p2x>-575</p2x>
+    <p2y>575</p2y>
+    
+
+  </Wall>
+
+  <!-- right border -->
+
+
+
+  <Wall>
+
+
+    <p1x>575</p1x>
+    <p1y>575</p1y>
+
+    <p2x>575</p2x>
+    <p2y>-575</p2y>
+
+
+  </Wall>
+
+  <!-- bottom border -->
+
+
+
+  <Wall>
+
+
+    <p1x>575</p1x>
+    <p1y>575</p1y>
+
+    <p2x>-575</p2x>
+    <p2y>575</p2y>
+
+
+
+  </Wall>
+
+  <!-- upper left 'L' piece -->
+
+
+
+  <Wall>
+
+
+    <p1x>-325</p1x>
+    <p1y>-325</p1y>
+
+    <p2x>-175</p2x>
+    <p2y>-325</p2y>
+
+
+  </Wall>
+
+
+  <Wall>
+
+
+    <p1x>-325</p1x>
+    <p1y>-325</p1y>
+
+    <p2x>-325</p2x>
+    <p2y>-175</p2y>
+
+
+
+  </Wall>
+
+  <!-- upper right 'L' piece -->
+
+
+
+  <Wall>
+
+
+    <p1x>325</p1x>
+    <p1y>-325</p1y>
+
+    <p2x>175</p2x>
+    <p2y>-325</p2y>
+
+
+  </Wall>
+
+
+  <Wall>
+
+
+    <p1x>325</p1x>
+    <p1y>-325</p1y>
+
+    <p2x>325</p2x>
+    <p2y>-175</p2y>
+
+
+
+  </Wall>
+
+  <!-- lower right 'L' piece -->
+
+
+
+  <Wall>
+
+
+    <p1x>325</p1x>
+    <p1y>325</p1y>
+
+    <p2x>175</p2x>
+    <p2y>325</p2y>
+
+
+  </Wall>
+
+
+  <Wall>
+
+
+    <p1x>325</p1x>
+    <p1y>325</p1y>
+
+    <p2x>325</p2x>
+    <p2y>175</p2y>
+
+
+  </Wall>
+
+  <!-- lower left 'L' piece -->
+
+
+
+  <Wall>
+
+
+    <p1x>-325</p1x>
+    <p1y>325</p1y>
+
+    <p2x>-175</p2x>
+    <p2y>325</p2y>
+
+
+  </Wall>
+
+
+  <Wall>
+
+
+    <p1x>-325</p1x>
+    <p1y>325</p1y>
+
+    <p2x>-325</p2x>
+    <p2y>175</p2y>
+
+
+  </Wall>
+
+  <!-- bottom innermost wall -->
+
+
+
+  <Wall>
+
+
+    <p1x>-50</p1x>
+    <p1y>-175</p1y>
+
+    <p2x>50</p2x>
+    <p2y>-175</p2y>
+
+
+  </Wall>
+
+  <!-- top innermost wall -->
+
+
+
+  <Wall>
+
+
+    <p1x>-50</p1x>
+    <p1y>175</p1y>
+
+    <p2x>50</p2x>
+    <p2y>175</p2y>
+
+
+  </Wall>
+
+  <!-- left innermost wall -->
+
+
+
+  <Wall>
+
+
+    <p1x>-175</p1x>
+    <p1y>-50</p1y>
+
+    <p2x>-175</p2x>
+    <p2y>50</p2y>
+
+
+  </Wall>
+
+  <!-- right innermost wall -->
+
+
+
+  <Wall>
+
+
+    <p1x>175</p1x>
+    <p1y>-50</p1y>
+
+    <p2x>175</p2x>
+    <p2y>50</p2y>
+
+  </Wall>
+
+</GameSettings>
