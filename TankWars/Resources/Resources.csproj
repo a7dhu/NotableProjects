@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A54F7BC6-3435-453D-9100-839FF11151B1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Resources</RootNamespace>
+    <AssemblyName>Resources</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NetworkController.dll" />
+    <Content Include="README.txt" />
+    <Content Include="TankWarsImages\Background.png" />
+    <Content Include="TankWarsImages\BlueTank.png" />
+    <Content Include="TankWarsImages\BlueTurret.png" />
+    <Content Include="TankWarsImages\BlueTurretBig.png" />
+    <Content Include="TankWarsImages\DarkTank.png" />
+    <Content Include="TankWarsImages\DarkTurret.png" />
+    <Content Include="TankWarsImages\GreenTank.png" />
+    <Content Include="TankWarsImages\GreenTurret.png" />
+    <Content Include="TankWarsImages\LightGreenTank.png" />
+    <Content Include="TankWarsImages\LightGreenTurret.png" />
+    <Content Include="TankWarsImages\mariostar-removebg-preview.png" />
+    <Content Include="TankWarsImages\OrangeTank.png" />
+    <Content Include="TankWarsImages\OrangeTurret.png" />
+    <Content Include="TankWarsImages\PurpleTank.png" />
+    <Content Include="TankWarsImages\PurpleTurret.png" />
+    <Content Include="TankWarsImages\RedTank.png" />
+    <Content Include="TankWarsImages\RedTurret.png" />
+    <Content Include="TankWarsImages\shot-blue.png" />
+    <Content Include="TankWarsImages\shot-brown.png" />
+    <Content Include="TankWarsImages\shot-green.png" />
+    <Content Include="TankWarsImages\shot-grey.png" />
+    <Content Include="TankWarsImages\shot-red.png" />
+    <Content Include="TankWarsImages\shot-violet.png" />
+    <Content Include="TankWarsImages\shot-white.png" />
+    <Content Include="TankWarsImages\shot-yellow.png" />
+    <Content Include="TankWarsImages\shot_blue.png" />
+    <Content Include="TankWarsImages\shot_grey.png" />
+    <Content Include="TankWarsImages\shot_red_new.png" />
+    <Content Include="TankWarsImages\shot_violet.png" />
+    <Content Include="TankWarsImages\WallSprite.png" />
+    <Content Include="TankWarsImages\YellowTank.png" />
+    <Content Include="TankWarsImages\YellowTurret.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
